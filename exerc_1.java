@@ -1,7 +1,7 @@
 import java.util.Scanner:
   class exerc_1{
     
-    /*This tutorial we do a simple calculator*/
+    /*This tutorial we do a simple addition calculator using values that the user give to us*/
     
     public static void main (String args[]){
       
