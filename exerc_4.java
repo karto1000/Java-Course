@@ -8,7 +8,26 @@ import java.util.Scanner;
       Scanner entrada = new Scanner(System.in);
       
 //---------------Variables DEclaration--------------      
-    int age = 3;
+      int age;
+
+//--------------Data processing--------------------      
+      age = entrada.nextInt();
+      
+      switch(age){
+        case 1:
+          System.out.println("You can fly");
+          break;
+        case 2:
+          System.out.println("You can talk");
+          break
+        case 3: 
+          System.out.println("You can get trouble");
+          break;
+        default:
+          System.out.println("I don't know how old you are");
+     
+      
+      } 
     
     }
   
