@@ -19,7 +19,7 @@ import java.util.Scanner;
           break;
         case 2:
           System.out.println("You can talk");
-          break
+          break;
         case 3: 
           System.out.println("You can get trouble");
           break;
