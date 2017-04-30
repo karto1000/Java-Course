@@ -10,9 +10,12 @@ import java.util.Scanner;
 //---------------Variables DEclaration--------------      
       int age;
 
-//--------------Data processing--------------------      
+//--------------Data imput--------------------------      
+      
+      System.out.println("Enter an integrer: ");
       age = entrada.nextInt();
       
+//---------------Data processing--------------------      
       switch(age){
         case 1:
           System.out.println("You can fly");
